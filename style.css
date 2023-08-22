@@ -1,0 +1,40 @@
+@font-face{
+    src: url(./fonts/static/Outfit-Regular.ttf);
+    font-family: outfit;
+}
+section{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh; 
+    align-items: center;
+}
+.Container{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    height: 460px;
+}
+img{
+    width: 270px;
+    margin: 15px 15px;
+    border-radius: 15px;
+}
+h3{
+    width: 230px;
+    margin: 0px 10px 10px 32px ;
+    padding: 0;
+    font-size: 20px;
+    font-family: outfit;
+    font-weight: 400,700;
+}
+p{
+    color:   hsl(220, 15%, 55%);
+    height: 90px;
+    margin: auto;
+    font-size: 15px;
+    width: 250px;
+    font-family: outfit;
+}
